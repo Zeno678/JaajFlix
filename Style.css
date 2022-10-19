@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;}
+body
+{background-color: rgb(21, 21, 21);}
+p
+{color: rgb(249, 249, 249);}
+h1
+{color: rgb(249, 249, 249);}
+h2
+{color: rgb(249, 249, 249);}
+h3
+{color: rgb(249, 249, 249);}
+h4
+{color: rgb(249, 249, 249);}
+a
+{color: rgb(178, 219, 255);}
+button
+{padding: 10px 30px; 
+background: rgb(142, 0, 0); 
+color: white;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+}
+button:hover {
+background: rgb(255, 0, 0); 
+}
+img
+{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 11px;
+}
+img:hover
+{
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 15px;  
+}
