@@ -1,3 +1,3 @@
 # JaajFlix
-Streaming / https://zeno678.github.io/JaajFlix/
+Streaming / jaajflix.tk
 Free no ads (FR ONLY)
