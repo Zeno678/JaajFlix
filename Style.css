@@ -28,9 +28,12 @@ img
 {
   -webkit-border-radius: 20px;
   -moz-border-radius: 11px;
+  
 }
 img:hover
 {
   -webkit-border-radius: 30px;
   -moz-border-radius: 15px;  
 }
+.Warning
+{color: rgb(140, 0, 0);}
