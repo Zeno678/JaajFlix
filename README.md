@@ -1,3 +1,3 @@
 # JaajFlix
-Streaming / jaajflix.tk
+Streaming / http://jaajflix.tk/
 Free no ads (FR ONLY)
