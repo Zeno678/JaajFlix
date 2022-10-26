@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+    <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -10,16 +11,71 @@
     <title>JaajFlix</title>
 </head>
 <body>
-    
-    <br><a  href="index.html"><img src="Logo2.png"></a>
-    <br><a href="DBSBROLY.html"><img src="Affiche1.0.jpg"></a>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <title>Tuto</title>
+    </head>
+    </html>
+    <a  href="index.html"><img src="Logo2.png"></a>
+    <br><a href="DBSBROLY.html"><img src="Affiche1.0.jpg"></a> 
+    <br>
    <h2><br>| Populaire</h2>
+   <input list="Série" type="search" id="search" value="" onchange="ouvrirPage()">
+   <input  type="button" id="button" onclick="ouvrirPage()" value="Chercher">
+   <datalist id="Série">
+        <option value="Chainsaw-man">
+        <option value="Edgerunner">
+        <option value="Dragon Ball Super Broly"></option>
+        <option value="Cooking Cho"></option>
+        <option value="Les crocs maxi cher"></option>
+        <option value="Blue Lock"></option>
+   </datalist>
+
+   <script>
+       function ouvrirPage() {
+           var a = document.getElementById("search").value;
+
+           if (a === "Cooking Cho") {
+               window.open("COOKINGCHO.html");
+           }
+
+           if (a === "DBSBROLY") {
+               window.open("DBSBROLY.html");
+           }
+           
+           if (a === "Dragon Ball Super Broly") {
+               window.open("DBSBROLY.html");
+           }
+
+           if (a === "Edgerunner") {
+               window.open("Edgerunner.html");
+           }
+
+           if (a === "Chainsaw-man") {
+               window.open("ChainsawMan1.html");
+           }
+
+           if (a === "Les crocs maxi cher") {
+               window.open("Lescrocscarsmaxicher.html");
+           }
+
+           if (a === "Blue Lock") {
+               window.open("BlueLock1.html");
+           }
+
+       }
+   </script>
+   <br>
+   <br>
    <a href="DBSBROLY.html"><img src="DBSBROLY.JPG"></a>
    <a href="COOKINGCHO.html"><img src="COOKINGCHO.jpg"></a>
    <a href="CHAINSWAYMAN1.html"><img src="ChainMan.jpg" width="200" height="283"></a>
    <a href="Edgerunner.html"><img src="Edgerunner.png" width="200" height="283"></a>
    <a href="Lescrocscarsmaxicher.html"><img src="Affichelescrocsmaxicher.png" width="200" height="283"></a>
    <a href="BlueLock1.html"><img src="Bluelock.jpg" width="200" height="283"></a>
-     <br><p class="Warning">Utiliser adblock nous ne pouvons pas limitez les pubs de notre hébergeurs l'autre marchait pas <a href="https://adblockplus.org/"> <p class="Warning2">Lien ici</p></a></p>
+   <br><p class="Warning">Utiliser adblock nous ne pouvons pas limitez les pubs de notre hébergeurs l'autre marchait pas <a href="https://adblockplus.org/"> <p class="Warning2">Lien ici</p></a></p>
 </body>
 </html

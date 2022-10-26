@@ -35,5 +35,15 @@ img:hover
   -webkit-border-radius: 30px;
   -moz-border-radius: 15px; 
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)}
-.Warning
-{color: rgb(140, 0, 0);}
+input
+{
+	background-color: #ffffff;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 11px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)}
+input:hover
+{
+	background-color: #dddddd;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 11px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)}
